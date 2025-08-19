@@ -1,0 +1,290 @@
+2025-08-19 19:15:25,286 - INFO - akshare库可用，将作为备用数据源
+2025-08-19 19:15:25,350 - INFO - 开始获取基金 110022 从 2024-01-01 到 2024-12-31 的历史数据
+2025-08-19 19:15:25,351 - INFO - 尝试数据源 1/4: _get_history_from_akshare
+2025-08-19 19:15:25,351 - ERROR - akshare数据源获取失败: fund_open_fund_info_em() got an unexpected keyword argument 'fund'
+2025-08-19 19:15:25,351 - WARNING - 数据源 _get_history_from_akshare 返回空数据
+2025-08-19 19:15:25,351 - INFO - 尝试数据源 2/4: _get_history_from_eastmoney_new
+2025-08-19 19:15:25,351 - INFO - 东方财富新接口尝试第 1 次
+2025-08-19 19:15:25,409 - INFO - 响应状态码: 200
+2025-08-19 19:15:25,410 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755602125351({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:15:25,410 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:15:25,410 - WARNING - API响应中没有数据
+2025-08-19 19:15:25,410 - INFO - 东方财富新接口尝试第 2 次
+2025-08-19 19:15:25,440 - INFO - 响应状态码: 200
+2025-08-19 19:15:25,441 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755602125351({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:15:25,441 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:15:25,441 - WARNING - API响应中没有数据
+2025-08-19 19:15:25,441 - INFO - 东方财富新接口尝试第 3 次
+2025-08-19 19:15:25,476 - INFO - 响应状态码: 200
+2025-08-19 19:15:25,476 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755602125351({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:15:25,476 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:15:25,476 - WARNING - API响应中没有数据
+2025-08-19 19:15:25,476 - WARNING - 数据源 _get_history_from_eastmoney_new 返回空数据
+2025-08-19 19:15:25,476 - INFO - 尝试数据源 3/4: _get_history_from_eastmoney_old
+2025-08-19 19:15:25,549 - INFO - 东方财富旧接口响应状态: 200
+2025-08-19 19:15:25,549 - INFO - 响应内容前100字符: <html>
+<head>
+<script language="javascript">setTimeout("location.replace(location.href.split(\"#\"
+2025-08-19 19:15:25,549 - WARNING - 数据源 _get_history_from_eastmoney_old 返回空数据
+2025-08-19 19:15:25,549 - INFO - 尝试数据源 4/4: _get_history_from_sina
+2025-08-19 19:15:25,550 - INFO - 新浪财经接口暂未实现
+2025-08-19 19:15:25,550 - WARNING - 数据源 _get_history_from_sina 返回空数据
+2025-08-19 19:15:25,550 - ERROR - 所有数据源都无法获取基金 110022 的历史数据
+2025-08-19 19:42:08,208 - INFO - akshare库可用，将作为备用数据源
+2025-08-19 19:42:10,554 - INFO - 开始获取基金 000001 从 2024-08-19 到 2025-08-19 的历史数据
+2025-08-19 19:42:10,554 - INFO - 尝试数据源 1/4: _get_history_from_akshare
+2025-08-19 19:42:10,554 - ERROR - akshare数据源获取失败: fund_open_fund_info_em() got an unexpected keyword argument 'fund'
+2025-08-19 19:42:10,554 - WARNING - 数据源 _get_history_from_akshare 返回空数据
+2025-08-19 19:42:10,554 - INFO - 尝试数据源 2/4: _get_history_from_eastmoney_new
+2025-08-19 19:42:10,555 - INFO - 东方财富新接口尝试第 1 次
+2025-08-19 19:42:10,655 - INFO - 响应状态码: 200
+2025-08-19 19:42:10,655 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755603730555({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:42:10,656 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:42:10,656 - WARNING - API响应中没有数据
+2025-08-19 19:42:10,656 - INFO - 东方财富新接口尝试第 2 次
+2025-08-19 19:42:10,684 - INFO - 响应状态码: 200
+2025-08-19 19:42:10,684 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755603730555({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:42:10,685 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:42:10,685 - WARNING - API响应中没有数据
+2025-08-19 19:42:10,685 - INFO - 东方财富新接口尝试第 3 次
+2025-08-19 19:42:10,713 - INFO - 响应状态码: 200
+2025-08-19 19:42:10,714 - INFO - 响应内容前100字符: jQuery18309441675404303797_1755603730555({"Data":null,"ErrCode":0,"ErrMsg":null,"TotalCount":0,"Expa
+2025-08-19 19:42:10,714 - INFO - JSON解析结果: ErrCode=0, TotalCount=0
+2025-08-19 19:42:10,714 - WARNING - API响应中没有数据
+2025-08-19 19:42:10,714 - WARNING - 数据源 _get_history_from_eastmoney_new 返回空数据
+2025-08-19 19:42:10,714 - INFO - 尝试数据源 3/4: _get_history_from_eastmoney_old
+2025-08-19 19:42:10,732 - INFO - 东方财富旧接口响应状态: 200
+2025-08-19 19:42:10,733 - INFO - 响应内容前100字符: <html>
+<head>
+<script language="javascript">setTimeout("location.replace(location.href.split(\"#\"
+2025-08-19 19:42:10,733 - WARNING - 数据源 _get_history_from_eastmoney_old 返回空数据
+2025-08-19 19:42:10,733 - INFO - 尝试数据源 4/4: _get_history_from_sina
+2025-08-19 19:42:10,733 - INFO - 新浪财经接口暂未实现
+2025-08-19 19:42:10,733 - WARNING - 数据源 _get_history_from_sina 返回空数据
+2025-08-19 19:42:10,733 - ERROR - 所有数据源都无法获取基金 000001 的历史数据
+2025-08-19 19:49:52,733 - INFO - akshare库可用，将作为备用数据源
+2025-08-19 19:49:52,811 - INFO - 开始获取基金 110022 从 2024-01-01 到 2024-12-31 的历史数据
+2025-08-19 19:49:52,811 - INFO - 尝试数据源 1/4: _get_history_from_akshare
+2025-08-19 19:49:53,070 - INFO - akshare获取到 3626 条原始数据，列名: ['净值日期', '单位净值', '日增长率']
+2025-08-19 19:49:53,076 - INFO - 筛选后剩余 243 条数据（2024-01-01 至 2024-12-31）
+2025-08-19 19:49:53,077 - INFO - 成功从 _get_history_from_akshare 获取到 243 条记录
+2025-08-19 19:50:17,599 - INFO - akshare库可用，将作为备用数据源
+2025-08-19 19:50:17,643 - INFO - 开始获取基金 110022 从 2025-07-20 到 2025-08-19 的历史数据
+2025-08-19 19:50:17,643 - INFO - 尝试数据源 1/4: _get_history_from_akshare
+2025-08-19 19:50:17,883 - INFO - akshare获取到 3626 条原始数据，列名: ['净值日期', '单位净值', '日增长率']
+2025-08-19 19:50:17,891 - INFO - 筛选后剩余 22 条数据（2025-07-20 至 2025-08-19）
+2025-08-19 19:50:17,891 - INFO - 成功从 _get_history_from_akshare 获取到 22 条记录
+2025-08-19 19:50:17,947 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,951 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,952 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,952 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,953 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,953 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,954 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,955 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,955 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,966 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,967 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,967 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,967 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,968 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,968 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,968 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,969 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,972 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,979 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,982 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,993 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:17,994 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,008 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,024 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,024 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,025 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,025 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,026 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,026 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,026 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,027 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,029 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,035 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,036 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,077 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,078 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,078 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,079 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,079 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,079 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,080 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,080 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,080 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,082 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,083 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,083 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,087 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,088 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,089 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,090 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,091 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,092 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,092 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,092 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,106 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,108 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,112 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,113 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,113 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,114 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,114 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,114 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,115 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,115 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,117 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,118 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,118 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,124 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,209 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,209 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,210 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,210 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,211 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,211 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,211 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,211 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,212 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,213 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,214 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,214 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,219 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,220 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,221 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,221 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,222 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,223 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,223 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,224 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,225 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,226 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,227 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,228 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,228 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,229 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,230 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,231 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,237 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,238 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,240 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,243 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,244 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,245 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,245 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,246 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,248 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,253 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,257 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,258 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,260 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,261 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,263 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,263 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,263 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,264 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,264 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,264 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,265 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,265 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,267 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,267 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,268 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,279 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,280 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,281 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,282 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,283 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,284 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,285 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,286 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,287 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,288 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,297 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,299 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,300 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,300 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,301 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,302 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,303 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,303 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,308 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,311 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,553 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,553 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,554 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,555 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,555 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,555 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,556 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,556 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,557 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,559 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,559 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,560 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,564 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,565 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,565 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,566 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,566 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,567 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,567 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,568 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,568 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,569 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,570 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,570 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,572 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,574 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,575 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,576 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,585 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,587 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,587 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,588 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,589 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,590 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,591 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,592 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,595 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,597 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,599 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,599 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,602 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,603 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,606 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,607 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,608 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,608 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,608 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,609 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,609 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,610 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,612 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,613 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,613 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,624 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,626 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,627 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,628 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,629 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,630 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,631 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,632 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,633 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,634 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,643 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,645 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,645 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,646 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,646 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,647 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,648 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,648 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,651 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
+2025-08-19 19:50:18,652 - WARNING - findfont: Generic family 'sans-serif' not found because none of the following families were found: SimHei
